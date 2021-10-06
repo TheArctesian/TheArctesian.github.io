@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="penis.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <title>Ascii Convert but js</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="text">
+            <h1>IMG to Ascii Convert</h1>
+            <p>Upload Image bellow</p>
+                <input type="file" name="picture" />
+            </p>
+            <p id="text">Press the button</p>
+            <label class="switch">
+                <input type="checkbox" id="myCheck" onclick="changeGreyRamp()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <canvas id="preview" style="display:none;"></canvas>
+        <pre id="ascii"></pre>
+        <script src="rust.js"></script>
+    </div>
+</body>
+
+</html>
