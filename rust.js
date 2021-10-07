@@ -26,7 +26,7 @@ const fontRatio = getFontRatio();
 function changeGreyRamp() {
     var checkBox = document.getElementById("myCheck");
     var text = document.getElementById("text");
-    
+
     // var textStyle = document.querySelectorAll("pre");
     if (checkBox.checked == true) {
         var greyRamp = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`\'. ';
@@ -118,7 +118,6 @@ const drawAscii = (greyScales, width) => {
         let nextChars = getCharacterForgreyScale(greyScale);
         if ((index + 1) % width === 0) {
             nextChars += '\n';
-            console.log("something is happen")
         }
 
         return asciiImage + nextChars;
