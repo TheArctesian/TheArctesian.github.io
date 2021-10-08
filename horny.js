@@ -19,7 +19,7 @@ function transforms(x, y, el) {
     if( calcX <= -10){
         calcX = -10;
     }
-    txt.textContent = "Rotation is: " + "   rotateX (" + calcX + "deg) " +
+    txt.textContent = "   rotateX (" + calcX + "deg) " +
         "   rotateY (" + calcY + "deg) ";
     return "perspective(100px) " +
         "   rotateX(" + calcX + "deg) " +
