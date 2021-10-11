@@ -23,25 +23,25 @@ const getFontRatio = () => {
 
 const fontRatio = getFontRatio();
 
-function changeGreyRamp() {
-    var checkBox = document.getElementById("myCheck");
-    var text = document.getElementById("text");
+// function changeGreyRamp() {
+//     var checkBox = document.getElementById("myCheck");
+//     var text = document.getElementById("text");
 
-    // var textStyle = document.querySelectorAll("pre");
-    if (checkBox.checked == true) {
-        var greyRamp = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`\'. ';
-        text.textContent = "Change greyramp scale, current is: " + greyRamp;
-        // textStyle.style.fontSize = "xx-smaller";
-        // textStyle.style.lineHeight="1" ;
-    } else {
-        var greyRamp = " .:-=+*#%@";
-        text.textContent = "Change greyramp scale, current is: " + greyRamp;
-        // textStyle.style.fontSize = "large";
-        // textStyle.style.lineHeight = "1.6";
-    }
-    return greyRamp;
-}
-var greyRamp = changeGreyRamp();
+//     // var textStyle = document.querySelectorAll("pre");
+//     if (checkBox.checked == true) {
+//         var greyRamp = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`\'. ';
+//         text.textContent = "Change greyramp scale, current is: " + greyRamp;
+//         // textStyle.style.fontSize = "xx-smaller";
+//         // textStyle.style.lineHeight="1" ;
+//     } else {
+//         var greyRamp = " .:-=+*#%@";
+//         text.textContent = "Change greyramp scale, current is: " + greyRamp;
+//         // textStyle.style.fontSize = "large";
+//         // textStyle.style.lineHeight = "1.6";
+//     }
+//     return greyRamp;
+// }
+ var greyRamp = " .:-=+*#%@";
 console.log(greyRamp);
 
 const convertTogreyScales = (context, width, height) => {
