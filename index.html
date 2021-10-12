@@ -9,29 +9,102 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <title>Ascii Convert but js</title>
 </head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 1rem;
+}
+
+.navMenu a:hover{
+    color: royalblue;
+}
+/*
+.navMenu a:hover{
+    color: rebeccapurple;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(85px);
+  transform: translateX(85px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+  background-color: red;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(350px);
+  transform: translateX(350px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+*/
+</style>
 <body>
-    <div class="background">
-        <div class="text">
-            <h1>IMG to Ascii Convert</h1>
-            <a href="imgseq.html"><p>TESTIMG SEQ</p></a>
-            <p>Upload Image bellow</p>
-             <a href="lookatme.html">
-                 <p>LOOK AT MEN</p>
-             </a>
-             <p>Upload Image bellow</p>
-                <input type="file" name="picture" />
-            </p>
-            <p id="text">Press the button</p>
-            <label class="switch">
-                <input type="checkbox" id="myCheck" onclick="changeGreyRamp()">
-                <span class="slider round"></span>
-            </label>
-        </div>
-        <canvas id="preview" style="display:none;"></canvas>
-        <pre id="ascii"></pre>
-        <script src="rust.js"></script>
-    </div>
+    <nav class="navMenu">
+        <a href="videoSeq/imgseq.html">png renderer</a>
+        <a href="lookatme.html">2d to 3d png follow cursor</a>
+        <a href="asciiConvert.html">Ascii Img</a>
+        <a href="vidAsci.html">Video to ascii</a>
+        <div class="dot"></div>
+    </nav>
 </body>
 
 </html>
