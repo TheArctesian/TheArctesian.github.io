@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+    padding: 50px;
+    background: #fff;
+    color: #272727;
+}
+
+.dark-mode {
+    background: #272727;
+    color: white;
+}
+
+h1 {
+    font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}
+
+
+#ascii {
+    font-family: 'Courier New', 'Courier', monospace;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: -1.5px;
+    text-align: center;
+    border: 5px solid #fddb3a;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 300ms all ease-in-out;
+}
+
+#ascii:hover {
+    border: 5px solid #3a95fd;
+}
+
+#foot {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: "Montserrat",
+        sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #fddb3a;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    background-color: #272727;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 20%
+
+}
+
+#foot:hover {
+    color: #3a95fd;
+}
+
+
+#button {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 18px;
+    background-color: #fddb3a;
+    transition: 300ms all ease-in-out;
+    border-radius: 4px;
+}
+
+#button:hover {
+    background-color: #3a95fd;
+}
+
+#butthehe {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: none;
+    border: 5px solid color;
+    background-color: #fddb3a;
+    font-family: "Montserrat",
+        sans-serif;
+    text-transform: uppercase;
+    transition: 300ms all ease-in-out;
+    border-radius: 4px;
+}
+
+#butthehe:hover {
+    background-color: #3a95fd;
+}

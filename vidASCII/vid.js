@@ -18,3 +18,4 @@ $(document).on("change", ".file_multi_video", function (evt) {
         txt.textContent = "File type not supported"
     }
 });
+

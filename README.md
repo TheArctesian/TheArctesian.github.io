@@ -11,3 +11,4 @@
 - Video to Ascii 
   - Converts a video to ASCII video
 
+>idk why i spent so long doing the ui but works
