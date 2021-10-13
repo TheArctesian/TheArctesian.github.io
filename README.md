@@ -1,5 +1,15 @@
 # A couple functions that can be reused
+![GitHub language count](https://img.shields.io/github/languages/count/TheArctesian/dumbJS?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/thearctesian/dumbJS?style=for-the-badge)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/thearctesian/dumbJS?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/thearctesian/dumbJS?style=for-the-badge)
 
+
+
+![GitHub followers](https://img.shields.io/github/followers/thearctesian?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/thearctesian/dumbjs?style=social)
+
+you can be the first!
 ## Contents
 
 - Png render 
