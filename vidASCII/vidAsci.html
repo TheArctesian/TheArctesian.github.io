@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="icon" href="imgs\dongie.png">
+    <title>Vid Ascii</title>
+
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+    * {
+        text-align: center;
+        background: #272727;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        padding:auto;
+    }
+    #foot{
+        text-decoration: none;
+        color:#fddb3a;
+        transition: all 0.2s ease-in-out;
+    }
+    #foot:hover{
+        color: #3a95fd;
+    }
+
+    video {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    input{
+        padding-top: 1rem;
+    }
+</style>
+
+<body>
+    <h1>Upload Video bellow</h1>
+    <p id ="txt">Will display your video: </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <center>
+        <video width="400" controls>
+            <source src="first-nft.mp4" id="video_here">
+            Your browser does not support HTML5 video.
+        </video>
+    </center>
+
+    <center>
+        <input type="file" name="file[]" class="file_multi_video" accept="video/*">
+    </center>
+    <script src="vid.js"></script>
+    <footer>
+        <a href="index.html">
+            <p id="foot" ;">return to index</p>
+        </a>
+    </footer>
+</body>
+
+</html>

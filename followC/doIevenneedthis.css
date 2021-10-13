@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+    background: #272727;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+    color:#fddb3a;
+    transition: all 0.2s ease-in-out;
+    
+}
+p:hover{
+    color: #3a95fd;
+}
+
+
+
+/*the answer is no i do not need this

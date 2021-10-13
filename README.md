@@ -1,8 +1,13 @@
-# Ascii-js
+# A couple functions that can be reused
 
-## Ascii image processing in v js 
- 
-Wtf is this shit why does this ![shitJS](imgs/Screenshot 2021-10-06 233902.png) 
+## Contents
 
+- Png render 
+  - A render that takes frame files and converts them to a video, from this i learnt to just covert it to a gif cause frame by frame processing takes too much time 
+- 2d to 3d png follow cursor
+  - A function that warps an image so that it looks 3d and will always look at the cursor
+- Ascii Img 
+  - Converts an image to ASCII Img
+- Video to Ascii 
+  - Converts a video to ASCII video
 
-AND ALSO HOW THE FUCK DO YOU SET A GLOBAL VARIABLE FROM A LOCAL FUNCTION AND NOT HAVE IT CALL RECURSIVELY 

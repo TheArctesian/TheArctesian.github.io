@@ -6,24 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" href="imgs\dongie.png">
     <title>IMG</title>
 </head>
 <style>
-    *{
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+    * {
         background: #272727;
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        text-align: center;
     }
-#coin{
-    justify-content: center;
-    width: 30%;
-    padding: 10px;
-    height: 30%;
-    align-items: center;
-}
+    #coin {
+        justify-content: center;
+        width: 50%;
+        padding: 10px;
+        height: 50%;
+        align-items: center;
+
+    }
+
+    #foot {
+        color: #fddb3a;
+        transition: all 0.2s ease-in-out;
+        font-size: 2rem;
+    }
+
+    #foot:hover {
+        color: #3a95fd;
+    }
 </style>
 
 <body>
+    <h1 style="color: #fff">Hover on the img</h1>
+    <center>
     <img id="coin" src="/videoSeq/UNLTRASTABLE-flip-pngSeq/tokenFlip-video0001.png">
     <script src="imgseq.js"></script>
+    </center>
+    <footer>
+        <a href="../index.html">
+            <p id="foot">return to index</p>
+        </a>
+    </footer>
 </body>
 
 </html>
