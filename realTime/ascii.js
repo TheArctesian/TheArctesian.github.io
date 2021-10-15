@@ -1,3 +1,4 @@
+
 var ascii = (function () {
     function asciiFromCanvas(canvas, options) {
         // Original code by Jacob Seidelin (http://www.nihilogic.dk/labs/jsascii/)

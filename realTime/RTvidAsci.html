@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="main.css" />
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" href="../imgs/dongie.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <button id="butthehe" onclick="Mode()">Toggle dark mode</button>
-    <h1 id="info">Please allow this page to access your camera.</h1>
     
-
+    <button id="butthehe" onclick="Mode()">Toggle dark mode</button>
+    
+    <h1 id="info">Please allow this page to access your camera.</h1>
     <pre id="ascii"></pre>
-    <button id="button">start</button>
+    <!-- <button id="rec">Record</button> -->
+    <button id="button" class="button">start</button>
 
     <script src="camera.js"></script>
     <script src="ascii.js"></script>
