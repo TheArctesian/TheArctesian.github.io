@@ -41,7 +41,7 @@ const fontRatio = getFontRatio();
 //     }
 //     return greyRamp;
 // }
- var greyRamp = " .:-=+*#%@";
+ var greyRamp = " .,:;i1tfLCG08@";
 console.log(greyRamp);
 
 const convertTogreyScales = (context, width, height) => {
